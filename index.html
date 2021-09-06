@@ -1,1 +1,47 @@
-Hello World! Welcome to my website
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+</head>
+<style>
+    h1 {
+        font-size: 20px;
+    }
+    
+    h2 {
+        font-size: 17px;
+    }
+    
+    .animasi-teks {
+        font-size: 29px;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        -webkit-animation: typing 5s steps(70, end);
+        animation: animasi-ketik 5s steps(70, end);
+    }
+    
+    @keyframes animasi-ketik {
+        from {
+            width: 0;
+        }
+    }
+    
+    @-webkit-keyframes animasi-ketik {
+        from {
+            width: 0;
+        }
+    }
+</style>
+
+<body>
+    <h1>Efek Mengetik Teks dengan CSS</h1>
+    <h2><a href="http://www.jurnalweb.com/cara-membuat-animasi-mengetik-teks-dengan-css">Jurnalweb.com</a></h2>
+    <hr>
+    <div class="animasi-teks">Hallo, selamat datang.....</div>
+</body>
+
+</html>
